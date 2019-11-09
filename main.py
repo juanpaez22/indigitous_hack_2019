@@ -22,6 +22,6 @@ def get_results(theme):
 
 
 if __name__ == '__main__':
-    with open('song_list.txt', 'r') as f:
+    with open('song_list.json', 'r') as f:
         song_dict = json.load(f)
     app.run()
