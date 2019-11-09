@@ -1,5 +1,5 @@
 {
-    "trust": [
+    "songs": [
         {
             "name" : "What A Beautiful Name",
             "artist" : "Ben Fielding, Brooke Ligertwood",
@@ -20,9 +20,7 @@
             "name" : "I Will Follow",
             "artist" : "Chris Tomlin",
             "key" : "A"
-        }],
-    "sacrifice": [
-        {
+        }, {
             "name" : "O Praise The Name (Anastasis)",
             "artist" : "Dean Ussher, Marty Sampson, Benjamin Hastings",
             "key" : "C"
@@ -42,9 +40,7 @@
             "name" : "Man Of Sorrows",
             "artist" : "Brooke Ligertwood, Matt Crocker",
             "key" : "F"
-        }],
-    "unity": [
-        {
+        }, {
             "name": "Come Alive",
             "artist" : "Benjamin Hastings, Michael Fatkin, Scott Ligertwood",
             "key" : "C"
@@ -56,9 +52,7 @@
             "name" : "Good Grace",
             "artist" : "Joel Houston",
             "key" : "A"
-        }],
-    "suffering": [
-        {
+        }, {
             "name" : "Come As You Are",
             "artist" : "Crowder, Passion",
             "key" : "A"
