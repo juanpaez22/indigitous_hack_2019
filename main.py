@@ -28,8 +28,7 @@ def get_results(theme):
         if song.theme_scores[theme] > 3:
             results.append(song)
 
-    json_string = json.dumps([ob.__dict__ for ob in results])
-    print(json_string)
+    json_string = jsonify([ob.__dict__ for ob in results])
     return json_string
 
 
@@ -54,9 +53,9 @@ class Song:
 
         for theme in theme_dict:
             for keyword in theme_dict[theme]:
-                if not(theme_scores.__contains__(theme)):
-                    theme_scores[theme] = 0
                 theme_scores[theme] += self.lyrics.count(keyword)
+
+        self.lyrics = ""
         return theme_scores
 
     def get_artist(self):
