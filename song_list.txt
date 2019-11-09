@@ -1,6 +1,100 @@
 {
 
-    "trust": ["What A Beautiful Name", "Cornerstone", "This I Believe (The Creed)", "Christ is Enough", "I Will Follow"],
+    "trust": [
+        {
+            "name" : "What A Beautiful Name",
+            "artist" : "",
+            "key" : ""
+        }, {
+            "name" : "Cornerstone",
+            "artist" : "",
+            "key" : ""
+        }, {
+            "name" : "This I Believe (The Creed)",
+            "artist" : "",
+            "key" : ""
+        }, {
+            "name" : "Christ is Enough",
+            "artist" : "",
+            "key" : ""
+        }, {
+            "name" : "I Will Follow",
+            "artist" : "",
+            "key" : ""
+        }],
+    "sacrifice": [
+        {
+            "name" : "O Praise The Name (Anastasis)",
+            "artist" : "",
+            "key" : ""
+        }, {
+            "name" : "",
+            "artist" : "",
+            "key" : ""
+        }, {
+            "name" : "",
+            "artist" : "",
+            "key" : ""
+        }, {
+            "name" : "",
+            "artist" : "",
+            "key" : ""
+        }, {
+            "name" : "",
+            "artist" : "",
+            "key" : ""
+        }],
+    "unity": [
+        {
+            "name": "Come Alive",
+            "artist" : "",
+            "key" : ""
+        }, {
+            "name" : "",
+            "artist" : "",
+            "key" : ""
+        }, {
+            "name" : "",
+            "artist" : "",
+            "key" : ""
+        }, {
+            "name" : "",
+            "artist" : "",
+            "key" : ""
+        }, {
+            "name" : "",
+            "artist" : "",
+            "key" : "" 
+        }],
+    "suffering": [
+        {
+            "name" : "Come As You Are",
+            "artist" : "",
+            "key" : ""
+        }, {
+            "name" : "Another in the Fire",
+            "artist" : "",
+            "key" : ""
+        }, {
+            "name" : "",
+            "artist" : "",
+            "key" : ""
+        }, {
+            "name" : "",
+            "artist" : "",
+            "key" : ""
+        }, {
+            "name" : "",
+            "artist" : "",
+            "key" : ""
+        }
+        ]
+
+}
+
+{
+
+    "trust": [{"artist": "A beautiful name", "title": "song title", "lyrics": "lyrics"}, "Cornerstone", "This I Believe (The Creed)", "Christ is Enough", "I Will Follow"],
     "sacrifice": ["O Praise The Name (Anastasis)"],
     "unity": ["Come Alive"],
     "suffering": ["Come As You Are", "Another in the Fire"]
