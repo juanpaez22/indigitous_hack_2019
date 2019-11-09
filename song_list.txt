@@ -1,0 +1,8 @@
+{
+
+    "trust": ["What A Beautiful Name", "Cornerstone", "This I Believe (The Creed)", "Christ is Enough", "I Will Follow"],
+    "sacrifice": ["O Praise The Name (Anastasis)"],
+    "unity": ["Come Alive"],
+    "suffering": ["Come As You Are", "Another in the Fire"]
+
+}
