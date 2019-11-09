@@ -1,0 +1,18 @@
+{
+  "name": "worshipwell-ui",
+  "version": "1.0.0",
+  "description": "worship set builder based on song themes",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "indigitous_hack_2019"
+  },
+  "author": "AMY CHEN",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
