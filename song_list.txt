@@ -1,10 +1,9 @@
 {
-
     "trust": [
         {
             "name" : "What A Beautiful Name",
-            "artist" : "",
-            "key" : ""
+            "artist" : "Hillsong Worship",
+            "key" : "D"
         }, {
             "name" : "Cornerstone",
             "artist" : "",
@@ -89,14 +88,5 @@
             "key" : ""
         }
         ]
-
-}
-
-{
-
-    "trust": [{"artist": "A beautiful name", "title": "song title", "lyrics": "lyrics"}, "Cornerstone", "This I Believe (The Creed)", "Christ is Enough", "I Will Follow"],
-    "sacrifice": ["O Praise The Name (Anastasis)"],
-    "unity": ["Come Alive"],
-    "suffering": ["Come As You Are", "Another in the Fire"]
 
 }
