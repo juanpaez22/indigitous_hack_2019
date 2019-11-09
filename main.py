@@ -30,7 +30,7 @@ def get_results(theme):
 
     json_string = json.dumps([ob.__dict__ for ob in results])
     print(json_string)
-    return(json_string)
+    return json_string
 
 
 class Song:
