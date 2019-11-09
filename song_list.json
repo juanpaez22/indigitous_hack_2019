@@ -1,83 +1,200 @@
 {
-    "trust": [
+    "songs": [
         {
             "name" : "What A Beautiful Name",
             "artist" : "Ben Fielding, Brooke Ligertwood",
-            "key" : "D"
+            "key" : "D",
+            "lyrics" : "You were the Word at the beginning
+            One with God the Lord Most High
+            Your hidden glory in creation
+            Now revealed in You our Christ
+            
+            What a beautiful Name it is
+            What a beautiful Name it is
+            The Name of Jesus Christ my King
+            
+            What a beautiful Name it is
+            Nothing compares to this
+            What a beautiful Name it is
+            The Name of Jesus
+            
+            You didn't want heaven without us
+            So Jesus, You brought heaven down
+            My sin was great, Your love was greater
+            What could separate us now
+            
+            What a wonderful Name it is
+            What a wonderful Name it is
+            The Name of Jesus Christ my King
+            
+            What a wonderful Name it is
+            Nothing compares to this
+            What a wonderful Name it is
+            The Name of Jesus
+            What a wonderful Name it is
+            The Name of Jesus
+            
+            Death could not hold You, the veil tore before You
+            You silenced the boast of sin and grave
+            The heavens are roaring the praise of Your glory
+            For You are raised to life again
+            
+            You have no rival, You have no equal
+            Now and forever, God, You reign
+            Yours is the Kingdom, Yours is the glory
+            Yours is the Name above all names
+            
+            What a powerful Name it is
+            What a powerful Name it is
+            The Name of Jesus Christ my King
+            
+            What a powerful Name it is
+            Nothing can stand against
+            What a powerful Name it is
+            The Name of Jesus
+            
+            You have no rival, You have no equal
+            Now and forever, God, You reign
+            Yours is the Kingdom, Yours is the glory
+            Yours is the Name above all names
+            
+            What a powerful Name it is
+            What a powerful Name it is
+            The Name of Jesus Christ my King
+            
+            What a powerful Name it is
+            Nothing can stand against
+            What a powerful Name it is
+            The Name of Jesus
+            
+            What a powerful Name it is
+            The Name of Jesus
+            What a powerful Name it is
+            The Name of Jesus"
         }, {
             "name" : "Cornerstone",
             "artist" : "Edward Mote, Eric Liljero, Jonas Myrin, Reuben Morgan",
-            "key" : "C"
+            "key" : "C",
+            "lyrics" : ""
         }, {
             "name" : "This I Believe (The Creed)",
             "artist" : "Ben Fielding, Matt Crocker",
-            "key" : "C"
+            "key" : "C",
+            "lyrics" : ""
         }, {
             "name" : "Christ is Enough",
             "artist" : "Jonas Myrin, Reuben Morgan",
-            "key" : "A, G"
+            "key" : "A, G",
+            "lyrics" : "[VERSE]
+            Christ is my reward
+            And all of my devotion
+            Now there's nothing in this world
+            That could ever satisfy
+            
+            [PRE-CHORUS]
+            Through every trial
+            My soul will sing
+            No turning back
+            I've been set free
+            
+            [CHORUS]
+            Christ is enough for me
+            Christ is enough for me
+            Everything I need is in You
+            Everything I need
+            
+            [VERSE]
+            Christ my all in all
+            The joy of my salvation
+            And this hope will never fail
+            Heaven is our home
+            
+            [PRE-CHORUS]
+            Through every storm
+            My soul will sing
+            Jesus is here
+            To God be the glory
+            
+            [BRIDGE]
+            I have decided to follow Jesus
+            No turning back
+            No turning back
+            
+            The cross before me
+            The world behind me
+            No turning back
+            No turning back
+            "
         }, {
             "name" : "I Will Follow",
             "artist" : "Chris Tomlin",
-            "key" : "A"
-        }],
-    "sacrifice": [
-        {
+            "key" : "A",
+            "lyrics" : ""
+        }, {
             "name" : "O Praise The Name (Anastasis)",
             "artist" : "Dean Ussher, Marty Sampson, Benjamin Hastings",
-            "key" : "C"
+            "key" : "C",
+            "lyrics" : ""
         }, {
             "name" : "King of Kings",
             "artist" : "Brooke Ligertwood, Scott Ligertwood, Jason Ingram",
-            "key" : "D"
+            "key" : "D",
+            "lyrics" : ""
         }, {
             "name" : "Lead Me To The Cross",
             "artist" : "Brooke Ligertwood",
-            "key" : "B"
+            "key" : "B",
+            "lyrics" : ""
         }, {
             "name" : "How Deep The Father's Love For Us",
             "artist" : "Stuart Townend",
-            "key" : "D"
+            "key" : "D",
+            "lyrics" : ""
         }, {
             "name" : "Man Of Sorrows",
             "artist" : "Brooke Ligertwood, Matt Crocker",
-            "key" : "F"
-        }],
-    "unity": [
-        {
+            "key" : "F",
+            "lyrics" : ""
+        }, {
             "name": "Come Alive",
             "artist" : "Benjamin Hastings, Michael Fatkin, Scott Ligertwood",
-            "key" : "C"
+            "key" : "C",
+            "lyrics" : ""
         }, {
             "name" : "Build Your Kingdom Here",
             "artist" : "Rend Collective",
-            "key" : "D"
+            "key" : "D",
+            "lyrics" : ""
         }, {
             "name" : "Good Grace",
             "artist" : "Joel Houston",
-            "key" : "A"
-        }],
-    "suffering": [
-        {
+            "key" : "A",
+            "lyrics" : ""
+        }, {
             "name" : "Come As You Are",
             "artist" : "Crowder, Passion",
-            "key" : "A"
+            "key" : "A",
+            "lyrics" : ""
         }, {
             "name" : "Another in the Fire",
             "artist" : "Joel Houston, Chris Davenport",
-            "key" : "C"
+            "key" : "C",
+            "lyrics" : ""
         }, {
             "name" : "Oceans (Where Feet May Fail)",
             "artist" : "Joel Houston, Matt Crocker, Salomon Lighthelm",
-            "key" : "D"
+            "key" : "D",
+            "lyrics" : ""
         }, {
             "name" : "Broken Vessels (Amazing Grace)",
             "artist" : "Joel Houston, Jonas Myrin",
-            "key" : "G"
+            "key" : "G",
+            "lyrics" : ""
         }, {
             "name" : "Blessed Be Your Name",
             "artist" : "Beth Redman, Matt Redman",
-            "key" : "A"
+            "key" : "A",
+            "lyrics" : ""
         }]
 
 }
