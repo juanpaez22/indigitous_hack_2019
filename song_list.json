@@ -2,91 +2,82 @@
     "trust": [
         {
             "name" : "What A Beautiful Name",
-            "artist" : "Hillsong Worship",
+            "artist" : "Ben Fielding, Brooke Ligertwood",
             "key" : "D"
         }, {
             "name" : "Cornerstone",
-            "artist" : "Hillsong Worship",
+            "artist" : "Edward Mote, Eric Liljero, Jonas Myrin, Reuben Morgan",
             "key" : "C"
         }, {
             "name" : "This I Believe (The Creed)",
-            "artist" : "Hillsong Worship",
+            "artist" : "Ben Fielding, Matt Crocker",
             "key" : "C"
         }, {
             "name" : "Christ is Enough",
-            "artist" : "",
-            "key" : ""
+            "artist" : "Jonas Myrin, Reuben Morgan",
+            "key" : "A, G"
         }, {
             "name" : "I Will Follow",
-            "artist" : "",
-            "key" : ""
+            "artist" : "Chris Tomlin",
+            "key" : "A"
         }],
     "sacrifice": [
         {
             "name" : "O Praise The Name (Anastasis)",
-            "artist" : "",
-            "key" : ""
+            "artist" : "Dean Ussher, Marty Sampson, Benjamin Hastings",
+            "key" : "C"
         }, {
-            "name" : "",
-            "artist" : "",
-            "key" : ""
+            "name" : "King of Kings",
+            "artist" : "Brooke Ligertwood, Scott Ligertwood, Jason Ingram",
+            "key" : "D"
         }, {
-            "name" : "",
-            "artist" : "",
-            "key" : ""
+            "name" : "Lead Me To The Cross",
+            "artist" : "Brooke Ligertwood",
+            "key" : "B"
         }, {
-            "name" : "",
-            "artist" : "",
-            "key" : ""
+            "name" : "How Deep The Father's Love For Us",
+            "artist" : "Stuart Townend",
+            "key" : "D"
         }, {
-            "name" : "",
-            "artist" : "",
-            "key" : ""
+            "name" : "Man Of Sorrows",
+            "artist" : "Brooke Ligertwood, Matt Crocker",
+            "key" : "F"
         }],
     "unity": [
         {
             "name": "Come Alive",
-            "artist" : "",
-            "key" : ""
+            "artist" : "Benjamin Hastings, Michael Fatkin, Scott Ligertwood",
+            "key" : "C"
         }, {
-            "name" : "",
-            "artist" : "",
-            "key" : ""
+            "name" : "Build Your Kingdom Here",
+            "artist" : "Rend Collective",
+            "key" : "D"
         }, {
-            "name" : "",
-            "artist" : "",
-            "key" : ""
-        }, {
-            "name" : "",
-            "artist" : "",
-            "key" : ""
-        }, {
-            "name" : "",
-            "artist" : "",
-            "key" : "" 
+            "name" : "Good Grace",
+            "artist" : "Joel Houston",
+            "key" : "A"
         }],
     "suffering": [
         {
             "name" : "Come As You Are",
-            "artist" : "",
-            "key" : ""
+            "artist" : "Crowder, Passion",
+            "key" : "A"
         }, {
             "name" : "Another in the Fire",
-            "artist" : "",
-            "key" : ""
+            "artist" : "Joel Houston, Chris Davenport",
+            "key" : "C"
         }, {
-            "name" : "",
-            "artist" : "",
-            "key" : ""
+            "name" : "Oceans (Where Feet May Fail)",
+            "artist" : "Joel Houston, Matt Crocker, Salomon Lighthelm",
+            "key" : "D"
         }, {
-            "name" : "",
-            "artist" : "",
-            "key" : ""
+            "name" : "Broken Vessels (Amazing Grace)",
+            "artist" : "Joel Houston, Jonas Myrin",
+            "key" : "G"
         }, {
-            "name" : "",
-            "artist" : "",
-            "key" : ""
-        }
-        ]
+            "name" : "Blessed Be Your Name",
+            "artist" : "Beth Redman, Matt Redman",
+            "key" : "A"
+        }]
 
 }
