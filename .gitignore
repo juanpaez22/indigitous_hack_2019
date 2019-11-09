@@ -2,4 +2,4 @@
 venv
 .idea
 env
-worshipwell-ui/node_modules
+/node_modules
