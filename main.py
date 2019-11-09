@@ -21,6 +21,8 @@ def get_theme():
 
 @app.route('/songs/<string:theme>')
 def get_results(theme):
+    if not(theme_dict.keys().__contains__(theme)):
+        return ""
     results = []
     for song in song_set:
         if song.theme_scores[theme] > 3:
@@ -44,8 +46,6 @@ class Song:
         except IOError:
             self.lyrics = ""
         self.theme_scores = self.get_theme_scores()
-        print(self.theme_scores)
-
 
     def get_theme_scores(self):
         theme_scores = {}
@@ -80,9 +80,5 @@ if __name__ == '__main__':
     for i in range(len(json_songs)):
         s = Song(json_songs[i]["artist"], json_songs[i]["name"], json_songs[i]["key"])
         song_set.add(s)
-
-    for i in song_set:
-        if i.name == "What A Beautiful Name":
-            print(i.get_theme_scores())
 
     app.run()
