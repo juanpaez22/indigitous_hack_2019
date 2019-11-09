@@ -1,21 +1,27 @@
 from flask import Flask, jsonify
+import json
 
 app = Flask(__name__)
+song_dict = {}
 
-@app.route('/<string:theme>')
-def getResults(theme):
-    if (theme == "trust"):
-        return jsonify({"song1": "I trust you"})
-    elif (theme == "sacrifice"):
-        return jsonify({"song1": "sacrifice"})
-    elif (theme == "unity"):
-        return jsonify({"song1": "together"})
-    elif (theme == "suffering"):
-        return jsonify({"song1": "suffering"})
-    else:
-        return jsonify({"song1": "not found"})
 
+@app.route('/get_themes')
+def get_theme():
+    themes = []
+    for key in song_dict.keys():
+        themes.append(key)
+    return jsonify(themes)
+
+
+@app.route('/songs/<string:theme>')
+def get_results(theme):
+    if song_dict.__contains__(theme):
+        return jsonify(song_dict[theme])
+
+    return jsonify({})
 
 
 if __name__ == '__main__':
+    with open('song_list.txt', 'r') as f:
+        song_dict = json.load(f)
     app.run()
