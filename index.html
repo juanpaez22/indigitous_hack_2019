@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>the worship well</title>
+        <script type="text/javascript" src="utils.js"></script>
+    </head>
+
+    <body class="segoe-font">
+    	<h1>the worship well</h1>
+    	<p>welcome to the worship well. pick a theme and click submit to draw songs from the well</p>
+        <select id="theme-select-list">
+	  		<option value="Choose a theme...">choose a theme...</option>
+	  		<option value="trust">trust</option>
+	  		<option value="sacrifice/resurrection">sacrifice/resurrection</option>
+	  		<option value="unity">unity</option>
+	  		<option value="suffering">suffering</option>
+		</select>
+		<button id="submit-button" onclick="drawSongs()">submit!</button>
+		<p id="song-list">no songs yet</p>
+    </body>
+</html>
