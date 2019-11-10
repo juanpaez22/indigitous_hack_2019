@@ -10,6 +10,7 @@ The worship well generates a worship list based on themes. you can select a them
 1. Make sure you have node and packages installed `npm install`
 2. Change directories to `cd worshipwell-ui/src`
 3. Run `node server.js`
+4. Go to http://127.0.0.1:9000/ to see our website :)
 
 ## Future features:
 1. Ranking songs by how much they relate to the theme
