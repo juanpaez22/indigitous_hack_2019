@@ -1,7 +1,9 @@
 from flask import Flask, jsonify
+from flask_cors import CORS
 import json
 
 app = Flask(__name__)
+CORS(app)
 song_set = set()        # Hold set of songs
 theme_dict = {}         # Associate theme to keywords to look for
 
