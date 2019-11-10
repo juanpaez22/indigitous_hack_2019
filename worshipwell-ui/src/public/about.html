@@ -1,67 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>about</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <head>
+        <meta charset="UTF-8">
+        <title>about</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">about</a>
-                <div class="collapse navbar-collapse" id = "navbar">
-                    <ul class="navbar-nav ml-auto mt-2">
-                        <li class = "nav-item"><a id="index_page" class ="nav-link" href = "index.html">home</a></li> 
-                    </ul>
-                </div>
-    </nav>
-    <p>the worship well generates a worship list based on themes. you can select a theme that you want and
-        the site will provide you with a list of songs that match your desired theme. </p>
-    <table border="1"  width="100%" ID="Table2">
-        <colgroup>
-            <col style="width: 20%" />
-            <col style="width: 20%" />
-            <col style="width: 20%" />
-            <col style="width: 20%" />
-            <col style="width: 20%" />
-        </colgroup>
-            <tr>
-                <td>abbey</td>
-                <td>juan</td>
-                <td>jennifer</td>
-                <td>amy</td>
-                <td>tyler</td>
-            </tr>
-            <tr>
-                <td>Major: Computer Science</td>
-                <td>Major: Electrical Engineering</td>
-                <td>Major: Computer Science</td>
-                <td>Major: Chemical Engineering</td>
-                <td>Major: Computer Science</td>
-            </tr>
-            <tr>
-                <td>Year: Freshman</td>
-                <td>Year: Junior</td>
-                <td>Year: Sophomore</td>
-                <td>Year: Senior</td>
-                <td>Year: Sophomore</td>
-            </tr>
-            <tr>
-                <td>I came up with the name of the site. Along the way, I learned basic frontend concepts in html and JavaScript
-                    as well as basic backend in Python.
-                </td>
-                <td>I created the Flask-based web API that generated the list of songs based on the requested 
-                    theme that would then be presented to the user. </td>
-                <td>I created the database of songs that we use to obtain data from. I learned how to interface with
-                    Flask and became exposed to backend development with the Flask framework.
-                </td>
-                <td></td>
-                <td>I learned about the division of labor between front-end and back-end, and also the ways in which
-                    these areas connect. I also got to work more with python and work with the html for the about page.
-                </td>
+            <div class="collapse navbar-collapse" id = "navbar">
+                <ul class="navbar-nav ml-auto mt-2">
+                    <li class = "nav-item">
+                        <a id="index_page" class ="nav-link" href = "index.html">home</a>
+                    </li> 
+                </ul>
+            </div>
+        </nav>
+        <p style="margin: 20px;">the worship well generates a worship list based on themes. you can select a theme that you want and
+            the site will provide you with a list of songs that match your desired theme. </p>
+        <table class="table table-borderless" width="100%" id="about-table">
+            <colgroup>
+                <col style="width: 20%" />
+                <col style="width: 20%" />
+                <col style="width: 20%" />
+                <col style="width: 20%" />
+                <col style="width: 20%" />
+            </colgroup>
+                <tr>
+                    <td align="center"><img id="img" src="https://scontent.fftw1-1.fna.fbcdn.net/v/t1.0-9/66729297_104412354209873_3458829646999584768_n.jpg?_nc_cat=107&_nc_oc=AQkg0nzWnnF5fQm9e4wW63kR0fRV7C3llILpVGeLbBXvuQAJNh4PvvTkcvHySEhfhGU&_nc_ht=scontent.fftw1-1.fna&oh=3491c39124855b528cc63ec16e13c605&oe=5E3FB277"></td>
+                    <td align="center"><img id="img" src="https://scontent.fftw1-1.fna.fbcdn.net/v/t1.0-9/10151329_895629323853838_1102245142361532893_n.jpg?_nc_cat=107&_nc_oc=AQlLfuRF9r4TREgf70ta8H1K9-PMFFtAzDki1S169pkuS0otO5QFjfVIL7aJpUpxmNE&_nc_ht=scontent.fftw1-1.fna&oh=1c311cce6ac9445beda5f8814544809c&oe=5E4FF202"></td>
+                    <td align="center"><img id="img" src="https://scontent.fftw1-1.fna.fbcdn.net/v/t1.0-9/31116804_2173877256177677_8526747587192029184_o.jpg?_nc_cat=107&_nc_oc=AQlnoJOUlq9xn9O_qpD6vZFxlNYjpVuBxHIM9zlqhnkpVGGYCC_pV6gji365Q0r3Uic&_nc_ht=scontent.fftw1-1.fna&oh=4829bbe7e800c0edf6b4a266c2dbf330&oe=5E4ECB76"></td>
+                    <td align="center"><img id="img" src="https://scontent.fftw1-1.fna.fbcdn.net/v/t1.0-9/35243313_10217138521482137_4351667736254873600_o.jpg?_nc_cat=101&_nc_oc=AQlzxz9GPoZpvsQdCjn2iM1v-9B_kNuaZJXT6D9fXfLy8uaYJClgTEd7L8rBRrvvqnc&_nc_ht=scontent.fftw1-1.fna&oh=7b9b5c4dbb24c9d32aaf785be4c59519&oe=5E41AFC9"></td>
+                    <td align="center"><img id="img" src="https://scontent.fftw1-1.fna.fbcdn.net/v/t1.0-9/43303777_1887920517963638_3838380734490345472_o.jpg?_nc_cat=109&_nc_oc=AQkudwuiq1vtDc4woXxFXOiJRaS7YJ_o_zXryA0bX2avoWl3oq0VDpyAzQ_0ZHb0O1w&_nc_ht=scontent.fftw1-1.fna&oh=97662cb0b40c5dcf6e42319bbed4e06e&oe=5E58E651"></td>
+                </tr>
+                <tr>
+                    <td>abbey</td>
+                    <td>juan</td>
+                    <td>jennifer</td>
+                    <td>amy</td>
+                    <td>tyler</td>
+                </tr>
+                <tr>
+                    <td>major: computer science</td>
+                    <td>major: electrical engineering</td>
+                    <td>major: computer science</td>
+                    <td>major: chemical engineering</td>
+                    <td>major: computer science</td>
+                </tr>
+                <tr>
+                    <td>year: freshman</td>
+                    <td>year: junior</td>
+                    <td>year: sophomore</td>
+                    <td>year: senior</td>
+                    <td>year: sophomore</td>
+                </tr>
+                <tr>
+                    <td>
+                        I came up with the name of the site. Along the way, I learned basic front-end concepts in html and JavaScript
+                        as well as basic backend in Python.
+                    </td>
+                    <td>
+                        I created the Flask-based web API that generated the list of songs based on the requested 
+                        theme that would then be presented to the user.
+                    </td>
+                    <td>
+                        I created the database of songs that we use to obtain data from. I learned how to interface with
+                        Flask and became exposed to backend development with the Flask framework.
+                    </td>
+                    <td>
+                        I developed the front-end aspects including the design of user interface and making AJAX requests.
+                    </td>
+                    <td>
+                        I learned about the division of labor between front-end and back-end, and also the ways in which
+                        these areas connect. I also got to work more with python and work with the html for the about page.
+                    </td>
 
-            </tr>
-    </table>
-    <h3 class="fixed-bottom" style="text-align: center;">special thanks to michelle, michael, and dan for their assistance on this project!</h3>
-</body>
+                </tr>
+        </table>
+        <h3 class="fixed-bottom" style="text-align: center;">special thanks to michelle, michael, and dan for their assistance on this project!</h3>
+    </body>
 </html>

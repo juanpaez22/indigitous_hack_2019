@@ -9,3 +9,9 @@ body {
 	margin: 20px !important;
 	text-align: center !important;
 }
+
+#img {
+	border-radius: 50% !important;
+	width: 150px !important;
+	height: 150px !important;
+}
