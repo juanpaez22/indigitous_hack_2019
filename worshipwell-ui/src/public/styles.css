@@ -4,3 +4,8 @@ body {
   	background-attachment: fixed;
   	background-size: cover;
 }
+
+#welcome-text {
+	margin: 20px !important;
+	text-align: center !important;
+}
